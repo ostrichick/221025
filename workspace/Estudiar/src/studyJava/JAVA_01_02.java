@@ -1,6 +1,6 @@
 package studyJava;
 
-public class Ex01 {
+public class JAVA_01_02 {
 
 	public static void main(String[] args) {
 		int a; // 변수 선언 (선언시 초기화하지 않으면 쓰레기값이 할당되어있다)
@@ -88,6 +88,16 @@ public class Ex01 {
 		final int MY_AGE = 22;
 		System.out.println(MY_AGE);
 
+		int aa = 10;
+		double bb = 2.0;
+		// 사칙 연산에서 피연산자 둘중 더 큰 데이터 타입으로 자동 형변환이 일어나기 때문에
+		// 강제로 int로 변환해줘야한다.
+
+		int resulttt = aa + (int) bb;
+		System.out.println(resulttt);
+
+		char cc = '글';
+		System.out.println((int) cc);
 	}
 
 }
