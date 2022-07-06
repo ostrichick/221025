@@ -1,6 +1,6 @@
 package studyJava;
 
-public class JAVA_04 {
+public class JAVA_04_conditional {
 
 	public static void main(String[] args) {
 		// if문은 조건식을 비교하고 true인경우 실행

@@ -1,6 +1,6 @@
 package studyJava;
 
-public class JAVA_03 {
+public class JAVA_03_opreator {
 	public static void main(String[] args) {
 
 		// 부호 연산자는 + 또는 -기호를 사용하여 음수 양수 표현

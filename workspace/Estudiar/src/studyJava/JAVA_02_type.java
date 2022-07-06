@@ -1,6 +1,6 @@
 package studyJava;
 
-public class JAVA_01_02 {
+public class JAVA_02_type {
 
 	public static void main(String[] args) {
 		int a; // 변수 선언 (선언시 초기화하지 않으면 쓰레기값이 할당되어있다)
