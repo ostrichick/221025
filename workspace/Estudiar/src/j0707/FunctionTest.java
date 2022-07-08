@@ -25,11 +25,13 @@ public class FunctionTest {
 		return n1 * n2;
 	}
 
-	public static void divideFunction(double n1, double n2) {
+	public static boolean divideFunction(double n1, double n2) {
 		if (n2 == 0.0) {
 			System.out.println("0으로 나눌 수 없음");
+			return true;
 		} else {
 			System.out.println(n1 / n2);
+			return false;
 		}
 
 	}
