@@ -3,7 +3,7 @@ package j0708;
 public class MyDateTest {
 	public static void main(String[] args) {
 		MyDate date1 = new MyDate(45, 35, 2000);
-		System.out.print(date1.isValid());
+		System.out.println(date1.isValid());
 
 		// date.month = 2;
 //		date.day = 32;

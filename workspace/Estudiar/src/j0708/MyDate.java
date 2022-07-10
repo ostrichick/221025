@@ -11,11 +11,13 @@ public class MyDate {
 		this.year = year;
 	}
 
-	public void isValid() {
+	public boolean isValid() {
 		if (day < 1 || day > 31) {
 			System.out.println("안됨");
+			return false;
 		} else {
 			System.out.println("됨");
+			return true;
 		}
 	}
 
