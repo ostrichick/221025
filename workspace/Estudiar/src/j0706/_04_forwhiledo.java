@@ -9,7 +9,7 @@ public class _04_forwhiledo {
 				System.out.println(num1 + "x" + num2 + "=" + num1 * num2);
 				if (num2 == 5) {
 					break out; // 기본값은 가장 큰접해있는 반복문 하나를 종료
-					// label 을 사용하면 label을 붙인 곳으로 탈출
+					// label 을 사용하면 label을 붙인 곳으로 탈출.
 				}
 			}
 		}

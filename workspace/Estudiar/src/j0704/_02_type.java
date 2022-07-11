@@ -7,7 +7,7 @@ public class _02_type {
 		a = 10; // 대입 연산자를 이용하여 데이터 할당
 		System.out.println(a);
 		int b = 10; // 변수 선언과 동시에 데이터 할당.
-
+//
 		if (a >= 10) {
 			int c = 20;
 			System.out.println(c);

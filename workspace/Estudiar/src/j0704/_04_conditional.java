@@ -3,7 +3,7 @@ package j0704;
 public class _04_conditional {
 
 	public static void main(String[] args) {
-		// if문은 조건식을 비교하고 true인경우 실행
+		// if문은 조건식을 비교하고 true인경우 실행.
 		int a = 20;
 		if (a > 100) {
 			System.out.println("a는 100초과");

@@ -7,7 +7,7 @@ public class _05_reference {
 		if (a == b) {
 			System.out.println("두 수가 같다");
 		}
-
+//
 		String str1 = new String("가");
 		String str2 = str1;
 //		str1 += 1;
