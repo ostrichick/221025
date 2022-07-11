@@ -157,6 +157,8 @@ public class Main {
 		for (int i = 0; i < abc.length; i++) {
 			System.out.println(abc[i] + "," + (int) abc[i]);
 		}
+
+		//
 		int tenIndex = 0;
 		int[] tenNum = new int[5];
 		for (int i = 1; i < 11; i++) {
