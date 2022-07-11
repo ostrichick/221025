@@ -118,6 +118,59 @@ public class Main {
 		sArray[0][2] = new Student();
 		// sArray[0][3] = new Student(); // 넘치는 인덱스에 데이터를 넣을땐 오류가 안나도 출력할때 오류가 남
 
+		// 자바 배열은 길이 고정이니 배열 길이변경을 원하면 더 큰 배열을 만들어 하나씩 복사
+		int[] intArray20 = new int[] { 10, 20, 30, 40, 50 };
+		int[] copyArray = new int[10];
+		for (int i = 0; i < intArray20.length; i++) {
+			copyArray[i] = intArray20[i];
+		}
+		for (int i = intArray20.length; i < copyArray.length; i++) {
+			int temp = i * 10;
+			copyArray[i] = temp;
+		}
+		//
+		// 연습
+		//
+		int[] num = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+		sum = 0;
+		for (int temp : num) {
+			sum += temp;
+		}
+		System.out.println(sum);
+
+		int[] numArray = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+		for (int number : numArray) {
+		}
+
+		Student[] studentArray = new Student[] { new Student("김삼식", 500), new Student("박충재", 600),
+				new Student("구중물", 400) };
+
+		for (int i = 0; i < studentArray.length; i++) {
+			studentArray[i].showStudentInfo();
+		}
+
+		char[] abc = new char[26];
+		char ch = 'a';
+		for (int i = 0; i < abc.length; i++, ch++) {
+			abc[i] = ch;
+		}
+		for (int i = 0; i < abc.length; i++) {
+			System.out.println(abc[i] + "," + (int) abc[i]);
+		}
+		int tenIndex = 0;
+		int[] tenNum = new int[5];
+		for (int i = 1; i < 11; i++) {
+			if (i % 2 == 0) {
+				tenNum[tenIndex] = i;
+				tenIndex++;
+			}
+		}
+		sum = 0;
+		for (int temp : tenNum) {
+			sum += temp;
+		}
+		System.out.println(sum); // 30
+
 //
 		//
 //

@@ -12,6 +12,11 @@ public class Student {
 		this.totalScore = totalScore;
 	}
 
+	public void showStudentInfo() {
+		System.out.print(this.name);
+		System.out.println(this.totalScore);
+	}
+
 	public String getName() {
 		return name;
 	}
