@@ -11,5 +11,14 @@ public class Student_test {
 		System.out.println(Student.getSerialNum());
 		System.out.println(s6.getStudentID());
 		System.out.println(s6.getStudentCard());
+
+		Student s7 = new Student();
+		s7.studentID = 100;
+
+//		s7 = Student.operStudentCardNum(s7);
+//		System.out.println(s7.studentCard);
+
+		Student.operStudentCardNum(s7);
+		System.out.println(s7.studentCard);
 	}
 }

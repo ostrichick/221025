@@ -2,16 +2,26 @@ package j0710_practice;
 
 public class Student {
 	public static int serialNum = 1000;
-	public int studentCard;
-	public int studentID;
-	public String studentName;
-	public int grade;
-	public String address;
+	int studentCard;
+	int studentCard2;
+	int studentID;
+	String studentName;
+	int grade;
+	String address;
 
 	public Student() {
 		serialNum++;
 		studentID = serialNum;
 		studentCard = serialNum + 100;
+	}
+
+//	public void Student operStudentCardNum(Student student) {
+//		student.studentCard2 = student.studentID + 100;
+//		return student;
+//	}
+	public static void operStudentCardNum(Student student) {
+		student.studentCard2 = student.studentID + 100;
+//		return student;
 	}
 
 	public static int getSerialNum() {
