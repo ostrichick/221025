@@ -1,4 +1,4 @@
-package j0710_practice;
+package j0709_practice;
 
 public class TakeTrans {
 
