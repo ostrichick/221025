@@ -157,6 +157,16 @@ public class Main {
 		for (int i = 0; i < abc.length; i++) {
 			System.out.println(abc[i] + "," + (int) abc[i]);
 		}
+		//
+		char[][] abc2 = new char[13][2];
+		ch = 'a';
+		for (int i = 0; i < abc2.length; i++) {
+			for (int j = 0; j < abc2[i].length; j++, ch++) {
+				abc2[i][j] = ch;
+
+			}
+			System.out.println(abc2[i][0] + "," + abc2[i][1]);
+		}
 
 		//
 		int tenIndex = 0;
