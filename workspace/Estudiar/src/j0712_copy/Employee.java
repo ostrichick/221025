@@ -9,7 +9,7 @@ public class Employee {
 	}
 }
 
-public class Engineer extends Employee {
+class Engineer extends Employee {
 	private String skillset;
 
 	public String getSkillSet() {
