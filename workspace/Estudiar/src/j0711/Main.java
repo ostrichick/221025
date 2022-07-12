@@ -143,7 +143,7 @@ public class Main {
 		}
 
 		Student[] studentArray = new Student[] { new Student("김삼식", 500), new Student("박충재", 600),
-				new Student("구중물", 400) };
+				new Student("구정물", 400) };
 
 		for (int i = 0; i < studentArray.length; i++) {
 			studentArray[i].showStudentInfo();
