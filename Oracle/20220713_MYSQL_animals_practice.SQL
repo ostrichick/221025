@@ -41,10 +41,8 @@ select count(distinct name) from animal_ins;
 -- 문제11. 동물 보호소에 들어온 동물 중 고양이와 개가 각각 몇 마리인지 조회하는 SQL문을 작성해주세요.
 -- 이때 고양이를 개보다 먼저 조회해주세요.
 
-select * from animal_ins
-Pivot (count(*)
-for animal_type
-);
+select count(*) from animal_ins group by animal_type;
+
 -- 문제12.[난이도:상] 동물 보호소에 들어온 동물 이름 중 두 번 이상 쓰인 이름과 해당 이름이 쓰인 횟수를 조회하는
 -- SQL문을 작성해주세요. 이때 결과는 이름이 없는 동물은 집계에서 제외하며, 결과는 이름 순으로 조회해주세요.
 select name, count(*) from animal_ins group by name having count(*)>1;
@@ -53,7 +51,9 @@ select name, count(*) from animal_ins group by name having count(*)>1;
 -- 보호소에서는 몇 시에 입양이 가장 활발하게 일어나는지 알아보려 합니다.
 -- 09:00부터 19:59까지, 각 시간대별로 입양이 몇 건이나 발생했는지 조회하는 SQL문을 작성해주세요.
 -- 이때 결과는 시간대 순으로 정렬해야 합니다.
-select count(*) from animal_outs
+select count(*) from animal_outs;
+
+select substring(outcome_date,12,5)as '시간' from animal_outs;
 
 -- 문제14. 보호소에서는 몇 시에 입양이 가장 활발하게 일어나는지 알아보려 합니다.
 -- 0시부터 23시까지, 각 시간대별로 입양이 몇 건이나 발생했는지 조회하는 SQL문을 작성해주세요.
