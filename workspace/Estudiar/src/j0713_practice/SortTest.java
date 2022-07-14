@@ -50,11 +50,47 @@ abstract class SuperSort implements Sort {
 
 class QuickSort extends SuperSort {
 
+	@Override
+	public void ascending(int[] arr) {
+	}
+
+	@Override
+	public void descending(int[] arr) {
+	}
+
+	@Override
+	public void description() {
+	}
+
 }
 
 class HeapSort extends SuperSort {
+
+	@Override
+	public void ascending(int[] arr) {
+	}
+
+	@Override
+	public void descending(int[] arr) {
+	}
+
+	@Override
+	public void description() {
+	}
 }
 
 class BubbleSort extends SuperSort {
+
+	@Override
+	public void ascending(int[] arr) {
+	}
+
+	@Override
+	public void descending(int[] arr) {
+	}
+
+	@Override
+	public void description() {
+	}
 
 }
