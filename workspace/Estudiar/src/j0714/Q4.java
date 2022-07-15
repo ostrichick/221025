@@ -1,4 +1,4 @@
-package j0714_practice;
+package j0714;
 
 class MyDog {
 	String name;
