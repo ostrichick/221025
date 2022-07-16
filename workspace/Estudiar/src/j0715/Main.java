@@ -90,6 +90,8 @@ public class Main {
     int result2 = b3.<Integer, String>method2("100");
     System.out.println(result2);
 
+    result3 = result3 + result2;
+
     // 클래스 선언시 타입파라미터에 extends 키워드 사용하면
     // 대입받을 수 있는 타입에 제한을 둘 수 있다
     // 이때 extends 클래스의 하위클래스까지만 대입될수있다
