@@ -50,9 +50,9 @@ public class Main {
 
     String str_a = "제네릭사용예제";
     B b = new B();
-    A a = new A();
-    a.obj = str_a;
-    a.obj = b;
+    // A a = new A();
+    // a.obj = str_a;
+    // a.obj = b;
 
     //		String strCopy = (String) a.obj;
     // 제네릭
@@ -70,7 +70,7 @@ public class Main {
     A<B, B> a3 = new A<B, B>();
     //		a3.obj = str_a;
     B b2 = a3.method1(b);
-
+    b2.getClass();
     // 기본 타입을 파라미터로 넘기기 위해서는 wrapper 클래스 사용
 
     A<String, Integer> a4 = new A<>();
