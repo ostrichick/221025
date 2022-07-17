@@ -44,7 +44,7 @@ public class Main {
       System.out.println("다른 사람" + "1");
     }
 
-    System.out.println(person1.equals(new String("안녕하세여")));
+    // System.out.println(person1.equals(new String("안녕하세여")));
     System.out.println(person1.equals(person2));
 
     // toString()
