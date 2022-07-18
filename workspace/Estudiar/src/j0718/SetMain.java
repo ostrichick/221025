@@ -87,13 +87,26 @@ public class SetMain {
 		tSet.add(10);
 
 		System.out.println(tSet);
-//		char var3 = '';
-		// 1~100 짝수의합
-		// 홀수값 합
-//		try {
-//			if(str.equals("A"))
-//			{System.out.println("STR 값은 A입니다");};
-//		}
-		// 14. JDBC 16 변환오류 실행완료 17.1 18.2 20. 합430 평86.0
+
+		TreeSet<Comf> tSet2 = new TreeSet<Comf>();
+		tSet2.add(new Comf(1001, "강감찬"));
+		tSet2.add(new Comf(1002, "이순신"));
+		tSet2.add(new Comf(1003, "고이즈미"));
+
+		System.out.println(tSet2);
 	}
+}
+
+class Comf {
+	int num;
+	String name;
+
+	Comf() {
+	}
+
+	public Comf(int num, String name) {
+		super();
+		this.num = num;
+		this.name = name;
+	};
 }
