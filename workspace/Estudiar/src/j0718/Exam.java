@@ -16,7 +16,7 @@ public class Exam {
 		// 3
 		int var1 = 10;
 		long var2 = 10000000000000l;
-		char var3;
+		char var3 = '\u0000', cvar2 = '\0', cvar3 = ' ';
 		double var4 = 10;
 		float var5 = 10;
 
@@ -24,14 +24,16 @@ public class Exam {
 		int x = 10;
 		int y = 20;
 		int z = (++x) + (y--);
-		System.out.println("4. " + z);
+		System.out.println("4. " + z); // 31
 
 		// 5
 		int sum = 0;
 		for (int i = 0; i <= 100; i++) {
+			//////////
 			if (i % 2 == 0) {
 				sum += i;
 			}
+			//////////
 		}
 		System.out.println("5. " + sum);
 
@@ -39,9 +41,11 @@ public class Exam {
 		int[] Ary = { 10, 15, 20, 25, 30 };
 		sum = 0;
 		for (int i = 0; i < Ary.length; i++) {
+			//////////
 			if (Ary[i] % 2 != 0) {
 				sum += Ary[i];
 			}
+			//////////
 		}
 		System.out.println("6. " + sum);
 
@@ -68,6 +72,9 @@ public class Exam {
 
 		// 10
 		String str = null;
+//		if (str.equals("A")) {
+//			System.out.println("str 값은 A입니다");
+//		}
 		try {
 			if (str.equals("A")) {
 				System.out.println("str 값은 A입니다");
@@ -105,6 +112,17 @@ public class Exam {
 		// 16 숫자값 변환 오류입니다
 		// 실행이 완료되었습니다
 
+		str = "1,234,567";
+		x = 0;
+		try {
+			x = Integer.parseInt(str);
+			System.out.println("16. X 값은 " + x + "입니다.");
+		} catch (Exception e) {
+			System.out.println("16. 숫자값 변환 오류입니다.");
+		} finally {
+			System.out.println("실행이 완료되었습니다.");
+		}
+
 		// 17 1
 
 		// 18 2
@@ -115,11 +133,10 @@ public class Exam {
 
 //		for (int i = 2; i < 10; i++) {
 //			System.out.println(i + "단 출력");
-//			{
-//				for (int j = 1; j < 10; j++)
-//					System.out.println(i + "x" + j + "=" + i * j);
-//			}
+//			for (int j = 1; j < 10; j++)
+//				System.out.println(i + "x" + j + "=" + i * j);
 //		}
+
 		// }
 		// }
 
@@ -144,20 +161,13 @@ public class Exam {
 class Stdt {
 
 	protected int Average = 0;
-//	//
-//	int scoreA;
-//	int scoreB;
-//	int scoreC;
 
+//////////////////////////////
 	Stdt(int scoreA, int scoreB, int scoreC) {
-//		this.scoreA = scoreA;
-//		this.scoreB = scoreB;
-//		this.scoreC = scoreC;
-//		Average = (this.scoreA + this.scoreB + this.scoreC) / 3;
 		Average = (scoreA + scoreB + scoreC) / 3;
 	}
 
-//	//
+//////////////////////////////
 	public int getAverage() {
 		return Average;
 	}
