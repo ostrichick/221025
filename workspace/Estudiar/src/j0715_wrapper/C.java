@@ -1,4 +1,4 @@
-package j0715;
+package j0715_wrapper;
 
 public class C<T extends Parent> {
 //필드배열 선언

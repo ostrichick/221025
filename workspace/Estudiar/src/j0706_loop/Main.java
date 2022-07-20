@@ -1,4 +1,4 @@
-package j0706;
+package j0706_loop;
 
 public class Main {
 // main() 메소드를 가지고 있는 것은 실행용 클래스

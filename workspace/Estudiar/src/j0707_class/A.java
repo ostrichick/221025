@@ -1,4 +1,4 @@
-package j0707;
+package j0707_class;
 
 public class A { // public class ""는 반드시 파일명과 동일해야함
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package j0704;
+package j0704_intro;
 
 public class _04_conditional {
 

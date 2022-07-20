@@ -1,4 +1,4 @@
-package j0714;
+package j0714_Object;
 
 class MyDog {
 	String name;

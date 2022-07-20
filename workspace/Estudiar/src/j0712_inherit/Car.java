@@ -1,4 +1,4 @@
-package j0712;
+package j0712_inherit;
 
 public class Car {
 	public Tire tire;

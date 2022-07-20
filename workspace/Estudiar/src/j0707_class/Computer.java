@@ -1,4 +1,4 @@
-package j0707;
+package j0707_class;
 
 public class Computer {
 	// 필드 클래스에서 만든어지는 개체를 선언하는 과정

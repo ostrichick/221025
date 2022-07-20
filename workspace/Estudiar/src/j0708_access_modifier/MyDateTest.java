@@ -1,4 +1,4 @@
-package j0708;
+package j0708_access_modifier;
 
 public class MyDateTest {
 	public static void main(String[] args) {

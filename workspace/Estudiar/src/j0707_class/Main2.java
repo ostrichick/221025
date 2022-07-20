@@ -1,6 +1,6 @@
-package j0707;
+package j0707_class;
 
-import j0708.SingletonA;
+import j0708_access_modifier.SingletonA;
 
 public class Main2 {
 

@@ -1,4 +1,4 @@
-package j0707;
+package j0707_class;
 
 public class ShoppingMall {
 

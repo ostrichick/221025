@@ -1,4 +1,4 @@
-package j0707;
+package j0707_class;
 
 public class Calculator {
 // 사칙연산을 하는 메소드 4개 선언

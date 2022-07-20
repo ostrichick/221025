@@ -1,4 +1,4 @@
-package j0715;
+package j0715_wrapper;
 
 public class B {
 	public <T> T method(T t) {

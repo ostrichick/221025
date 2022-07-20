@@ -1,6 +1,6 @@
 package j0708_test;
 
-import j0708.Student;
+import j0708_access_modifier.Student;
 
 public class StudentTest {
 	public static void main(String[] args) {

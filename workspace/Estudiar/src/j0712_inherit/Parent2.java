@@ -1,4 +1,4 @@
-package j0712;
+package j0712_inherit;
 
 public class Parent2 extends GrandMom {
 	// 클래스 선언시 생성자를 바로 선언했기때문에 컴파일러가 자동으로 만드는 기본생성자가 없음

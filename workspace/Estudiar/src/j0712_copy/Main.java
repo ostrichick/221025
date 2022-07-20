@@ -1,8 +1,8 @@
 package j0712_copy;
 
-import j0712.ChildB;
-import j0712.Parent;
-import j0712.Parent2;
+import j0712_inherit.ChildB;
+import j0712_inherit.Parent;
+import j0712_inherit.Parent2;
 
 public class Main {
 	public static void main(String[] args) {

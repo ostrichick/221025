@@ -1,4 +1,4 @@
-package j0708;
+package j0708_access_modifier;
 
 //엔티티 클래스
 //데이터를 담아 전달할 목적으로 만들어진 클래스

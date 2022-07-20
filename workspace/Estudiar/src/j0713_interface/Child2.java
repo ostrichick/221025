@@ -1,4 +1,4 @@
-package j0713;
+package j0713_interface;
 
 public class Child2 extends AbstractParent {
 	public String ca_field1 = "Child2 필드1";

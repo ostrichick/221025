@@ -1,4 +1,4 @@
-package j0713;
+package j0713_interface;
 
 public class ABImple2 implements AInterface, Binterface {
 	@Override

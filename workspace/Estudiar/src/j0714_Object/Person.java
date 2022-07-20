@@ -1,4 +1,4 @@
-package j0714;
+package j0714_Object;
 
 public class Person {
 

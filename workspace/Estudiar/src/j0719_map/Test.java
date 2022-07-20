@@ -1,4 +1,4 @@
-package j0719;
+package j0719_map;
 
 public class Test {
 	public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package j0708_test;
 
-import j0707.Calculator;
-import j0707.ShoppingMall;
+import j0707_class.Calculator;
+import j0707_class.ShoppingMall;
 
 public class Main {
 

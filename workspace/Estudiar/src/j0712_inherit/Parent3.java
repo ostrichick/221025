@@ -1,4 +1,4 @@
-package j0712;
+package j0712_inherit;
 
 public class Parent3 extends GrandMom {
 	@Override

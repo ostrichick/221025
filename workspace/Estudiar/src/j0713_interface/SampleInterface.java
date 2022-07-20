@@ -1,4 +1,4 @@
-package j0713;
+package j0713_interface;
 
 public interface SampleInterface {
 	// 인터페이스는 선언된 필드는 무조건 상수가 된다

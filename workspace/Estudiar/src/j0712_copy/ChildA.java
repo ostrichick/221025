@@ -1,6 +1,6 @@
 package j0712_copy;
 
-import j0712.Parent;
+import j0712_inherit.Parent;
 
 public class ChildA extends Parent {
 	public String cA_field = "자식 필드";

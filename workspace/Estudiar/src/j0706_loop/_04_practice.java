@@ -1,4 +1,4 @@
-package j0706;
+package j0706_loop;
 
 public class _04_practice {
 	public static void main(String[] args) {

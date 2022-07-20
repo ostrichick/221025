@@ -1,4 +1,4 @@
-package j0712;
+package j0712_inherit;
 
 //상속할 수 없는 클래스는 final 클래스 (부모가 될 수 없음)
 public final class ChildB extends Parent2 {

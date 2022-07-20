@@ -1,4 +1,4 @@
-package j0713;
+package j0713_interface;
 
 //하나의 클래스는 여러개의 인터페이스 구현 가능
 public class ABImple implements AInterface, Binterface {

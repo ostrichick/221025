@@ -1,4 +1,4 @@
-package j0713;
+package j0713_interface;
 
 public class Person {
 	// 인터페이스타입을 필드로 선언

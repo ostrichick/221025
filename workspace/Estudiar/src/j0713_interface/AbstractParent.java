@@ -1,4 +1,4 @@
-package j0713;
+package j0713_interface;
 
 //추상클래스 선언 방법
 //클래스 선언부에 abstract 사용

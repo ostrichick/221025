@@ -1,4 +1,4 @@
-package j0718;
+package j0718_set;
 
 public class Exam {
 

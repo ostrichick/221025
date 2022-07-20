@@ -1,4 +1,4 @@
-package j0711;
+package j0711_array;
 
 public class Student {
 	private String name;

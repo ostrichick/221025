@@ -1,4 +1,4 @@
-package j0707;
+package j0707_class;
 
 public class newMethod {
 	public static void main(String[] args) {

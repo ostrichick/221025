@@ -1,4 +1,4 @@
-package j0719;
+package j0719_map;
 
 public class ExceptionMain {
 	@SuppressWarnings({ "unused", "null" })
