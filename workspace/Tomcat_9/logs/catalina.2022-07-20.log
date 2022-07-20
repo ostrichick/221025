@@ -1,0 +1,82 @@
+20-Jul-2022 15:11:11.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.64
+20-Jul-2022 15:11:11.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 19:08:46 UTC
+20-Jul-2022 15:11:11.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.64.0
+20-Jul-2022 15:11:11.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+20-Jul-2022 15:11:11.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+20-Jul-2022 15:11:11.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+20-Jul-2022 15:11:11.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-13.0.2
+20-Jul-2022 15:11:11.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          13.0.2+8
+20-Jul-2022 15:11:11.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+20-Jul-2022 15:11:11.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64
+20-Jul-2022 15:11:11.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64
+20-Jul-2022 15:11:11.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Jul-2022 15:11:11.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+20-Jul-2022 15:11:11.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+20-Jul-2022 15:11:11.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Jul-2022 15:11:11.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Jul-2022 15:11:11.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\conf\logging.properties
+20-Jul-2022 15:11:11.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jul-2022 15:11:11.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+20-Jul-2022 15:11:11.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jul-2022 15:11:11.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+20-Jul-2022 15:11:11.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64
+20-Jul-2022 15:11:11.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64
+20-Jul-2022 15:11:11.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\temp
+20-Jul-2022 15:11:11.213 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\MYCOM\product\18.0.0\dbhomeXE\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_212\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\MYCOM\AppData\Local\Programs\Python\Python310;C:\Users\MYCOM\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MYCOM\AppData\Local\Microsoft\WindowsApps;C:\Users\MYCOM\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;;C:\Users\MYCOM\AppData\Roaming\npm;C:\Program Files\Java\jdk-13.0.2\bin;;.]
+20-Jul-2022 15:11:11.505 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+20-Jul-2022 15:11:11.552 INFO [main] org.apache.catalina.startup.Catalina.load [590] 밀리초 내에 서버가 초기화되었습니다.
+20-Jul-2022 15:11:11.643 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+20-Jul-2022 15:11:11.649 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.64]
+20-Jul-2022 15:11:11.670 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\docs]을(를) 배치합니다.
+20-Jul-2022 15:11:12.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\docs]에 대한 배치가 [526] 밀리초에 완료되었습니다.
+20-Jul-2022 15:11:12.203 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\examples]을(를) 배치합니다.
+20-Jul-2022 15:11:12.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\examples]에 대한 배치가 [502] 밀리초에 완료되었습니다.
+20-Jul-2022 15:11:12.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\host-manager]을(를) 배치합니다.
+20-Jul-2022 15:11:12.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\host-manager]에 대한 배치가 [62] 밀리초에 완료되었습니다.
+20-Jul-2022 15:11:12.771 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\manager]을(를) 배치합니다.
+20-Jul-2022 15:11:12.839 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\manager]에 대한 배치가 [68] 밀리초에 완료되었습니다.
+20-Jul-2022 15:11:12.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\ROOT]을(를) 배치합니다.
+20-Jul-2022 15:11:12.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\ROOT]에 대한 배치가 [40] 밀리초에 완료되었습니다.
+20-Jul-2022 15:11:12.888 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+20-Jul-2022 15:11:13.047 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1485] 밀리초 내에 시작되었습니다.
+20-Jul-2022 15:14:15.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.64
+20-Jul-2022 15:14:15.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 19:08:46 UTC
+20-Jul-2022 15:14:15.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.64.0
+20-Jul-2022 15:14:15.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+20-Jul-2022 15:14:15.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+20-Jul-2022 15:14:15.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+20-Jul-2022 15:14:15.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-13.0.2
+20-Jul-2022 15:14:15.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          13.0.2+8
+20-Jul-2022 15:14:15.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+20-Jul-2022 15:14:15.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64
+20-Jul-2022 15:14:15.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64
+20-Jul-2022 15:14:15.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Jul-2022 15:14:15.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+20-Jul-2022 15:14:15.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+20-Jul-2022 15:14:15.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Jul-2022 15:14:15.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Jul-2022 15:14:15.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\conf\logging.properties
+20-Jul-2022 15:14:15.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jul-2022 15:14:15.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+20-Jul-2022 15:14:15.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jul-2022 15:14:15.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+20-Jul-2022 15:14:15.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64
+20-Jul-2022 15:14:15.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64
+20-Jul-2022 15:14:15.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\temp
+20-Jul-2022 15:14:15.236 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\MYCOM\product\18.0.0\dbhomeXE\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_212\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\MYCOM\AppData\Local\Programs\Python\Python310;C:\Users\MYCOM\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MYCOM\AppData\Local\Microsoft\WindowsApps;C:\Users\MYCOM\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin;;C:\Users\MYCOM\AppData\Roaming\npm;C:\Program Files\Java\jdk-13.0.2\bin;;.]
+20-Jul-2022 15:14:15.484 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+20-Jul-2022 15:14:15.514 INFO [main] org.apache.catalina.startup.Catalina.load [499] 밀리초 내에 서버가 초기화되었습니다.
+20-Jul-2022 15:14:15.549 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+20-Jul-2022 15:14:15.551 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.64]
+20-Jul-2022 15:14:15.560 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\docs]을(를) 배치합니다.
+20-Jul-2022 15:14:15.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\docs]에 대한 배치가 [334] 밀리초에 완료되었습니다.
+20-Jul-2022 15:14:15.896 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\examples]을(를) 배치합니다.
+20-Jul-2022 15:14:16.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\examples]에 대한 배치가 [440] 밀리초에 완료되었습니다.
+20-Jul-2022 15:14:16.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\host-manager]을(를) 배치합니다.
+20-Jul-2022 15:14:16.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\host-manager]에 대한 배치가 [58] 밀리초에 완료되었습니다.
+20-Jul-2022 15:14:16.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\manager]을(를) 배치합니다.
+20-Jul-2022 15:14:16.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\manager]에 대한 배치가 [57] 밀리초에 완료되었습니다.
+20-Jul-2022 15:14:16.458 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\ROOT]을(를) 배치합니다.
+20-Jul-2022 15:14:16.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\apache-tomcat-9.0.64\webapps\ROOT]에 대한 배치가 [31] 밀리초에 완료되었습니다.
+20-Jul-2022 15:14:16.495 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+20-Jul-2022 15:14:16.647 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1132] 밀리초 내에 시작되었습니다.
