@@ -79,6 +79,7 @@ public class CarTest_Unfinished {
 
 class CarFactory {
 	static CarFactory instance;
+	@SuppressWarnings("unused")
 	private HashMap<Car, String> hashMap;
 
 	CarFactory() {
