@@ -162,3 +162,44 @@
 20-Jul-2022 15:35:54.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\MYCOM\Dropbox\PC\Music\221025\workspace\Tomcat_9\webapps\ROOT]에 대한 배치가 [28] 밀리초에 완료되었습니다.
 20-Jul-2022 15:35:54.846 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
 20-Jul-2022 15:35:54.989 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1064] 밀리초 내에 시작되었습니다.
+20-Jul-2022 21:03:21.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+20-Jul-2022 21:03:21.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+20-Jul-2022 21:03:21.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+20-Jul-2022 21:03:21.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Jul-2022 21:03:21.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Jul-2022 21:03:21.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Jul-2022 21:03:21.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.1.1
+20-Jul-2022 21:03:21.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1.1+2-6
+20-Jul-2022 21:03:21.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Jul-2022 21:03:21.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9
+20-Jul-2022 21:03:21.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9
+20-Jul-2022 21:03:21.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Jul-2022 21:03:21.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Jul-2022 21:03:21.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Jul-2022 21:03:21.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Jul-2022 21:03:21.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Jul-2022 21:03:21.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9\conf\logging.properties
+20-Jul-2022 21:03:21.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jul-2022 21:03:21.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Jul-2022 21:03:21.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jul-2022 21:03:21.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Jul-2022 21:03:21.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9
+20-Jul-2022 21:03:21.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9
+20-Jul-2022 21:03:21.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9\temp
+20-Jul-2022 21:03:21.237 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-18.0.1.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\Nuke\product\18.0.0\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Nuke\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Nuke\AppData\Local\Programs\Python\Python39\;C:\Users\Nuke\AppData\Local\Microsoft\WindowsApps;C:\Users\Nuke\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nuke\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Users\Nuke\AppData\Roaming\npm;.]
+20-Jul-2022 21:03:21.446 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Jul-2022 21:03:21.461 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [382] milliseconds
+20-Jul-2022 21:03:21.491 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Jul-2022 21:03:21.492 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+20-Jul-2022 21:03:21.499 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9\webapps\docs]
+20-Jul-2022 21:03:21.736 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9\webapps\docs] has finished in [236] ms
+20-Jul-2022 21:03:21.736 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9\webapps\examples]
+20-Jul-2022 21:03:22.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9\webapps\examples] has finished in [420] ms
+20-Jul-2022 21:03:22.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9\webapps\host-manager]
+20-Jul-2022 21:03:22.199 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9\webapps\host-manager] has finished in [43] ms
+20-Jul-2022 21:03:22.199 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9\webapps\manager]
+20-Jul-2022 21:03:22.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9\webapps\manager] has finished in [46] ms
+20-Jul-2022 21:03:22.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9\webapps\ROOT]
+20-Jul-2022 21:03:22.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Nuke\Dropbox\PC\Music\221025\workspace\Tomcat_9\webapps\ROOT] has finished in [25] ms
+20-Jul-2022 21:03:22.273 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Jul-2022 21:03:22.301 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [837] milliseconds
