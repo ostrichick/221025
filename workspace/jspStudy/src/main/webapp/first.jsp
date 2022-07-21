@@ -18,7 +18,7 @@ for (int i : iArray) {
 	sum += i;
 }
 %>
-<title>Insert title here</title>
+<title>ㅇㅅㅇㅅㅇ</title>
 <style>
 .n td {
 		width: 30px;
@@ -81,14 +81,13 @@ for (int i : iArray) {
 		</table>
 		<table class="n" border="1">
 				<%
-				for(int[] i:iArray2){ {
+				for(int[] i:iArray2){ 
 					//for(int[] i:iArray2){
 				%>
 				<tr>
 						<%
 						for(int j:i) {
 							//for(int j:i)
-						}
 						%>
 						<td><%= j %></td>
 						<% // j
@@ -99,6 +98,7 @@ for (int i : iArray) {
 				}
 				%>
 		</table>
+
 		<table class="h" border="1">
 				<%
 				for (int i = 2; i < 10; i++) {
@@ -117,6 +117,7 @@ for (int i : iArray) {
 				%>
 		</table>
 		<table class="h" border="1">
+
 				<%
 				for (int i = 2; i < 10; i++) {
 				%>
