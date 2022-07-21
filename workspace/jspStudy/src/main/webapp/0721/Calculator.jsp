@@ -9,7 +9,7 @@
 </head>
 <body>
 		<h2>계산기 만들기</h2>
-		<!-- 계산하기 버튼을 누르면 입력 양심 값들을 calculator_result.jsp로 전송
+		<!-- 계산하기 버튼을 누르면 입력 양식 값들을 calculator_result.jsp로 전송
 		연산 결과를 출력 -->
 		<form action="calculator_result.jsp">
 				<p>

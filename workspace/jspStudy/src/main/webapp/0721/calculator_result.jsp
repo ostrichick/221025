@@ -39,24 +39,29 @@ int n1 = Integer.parseInt(num1);
 int n2 = Integer.parseInt(num2);
 
 int result2 = 0;
-String sym = "";
-switch (oper) {
-case "plus":
-	result2 = add(n1, n2);
-	sym = "+";
-	break;
-case "minus":
-	result2 = minus(n1, n2);
-	sym = "-";
-	break;
-case "multi":
-	result2 = multi(n1, n2);
-	sym = "*";
-	break;
-case "divide":
-	result2 = divide(n1, n2);
-	sym = "/";
-	break;
+String symbol = "";
+
+try {
+	switch (oper) {
+	case "plus":
+		result2 = add(n1, n2);
+		symbol = "+";
+		break;
+	case "minus":
+		result2 = minus(n1, n2);
+		symbol = "-";
+		break;
+	case "multi":
+		result2 = multi(n1, n2);
+		symbol = "*";
+		break;
+	case "divide":
+		symbol = "/";
+		result2 = n1 / n2;
+		break;
+	}
+} catch (Exception e) {
+	System.out.println("오류" + e);
 }
 %>
 <!DOCTYPE html>
@@ -68,7 +73,7 @@ case "divide":
 <body>
 		<h3>계산 결과</h3>
 		<%=n1%>
-		<%=sym%>
+		<%=symbol%>
 		<%=n2%>
 		=
 		<%=result2%>
