@@ -10,6 +10,7 @@ public class DBConnectionEx {
 	private static final String USER = "hr";
 	private static final String PW = "1234";
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Connection conn;
 		try {

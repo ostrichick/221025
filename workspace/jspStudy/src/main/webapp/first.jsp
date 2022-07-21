@@ -81,16 +81,17 @@ for (int i : iArray) {
 		</table>
 		<table class="n" border="1">
 				<%
-				for(int[] i:iArray2){ 
+				for (int[] i : iArray2) {
 					//for(int[] i:iArray2){
 				%>
 				<tr>
 						<%
-						for(int j:i) {
+						for (int j : i) {
 							//for(int j:i)
 						%>
-						<td><%= j %></td>
-						<% // j
+						<td><%=j%></td>
+						<%
+						// j
 						}
 						%>
 				</tr>
@@ -117,7 +118,6 @@ for (int i : iArray) {
 				%>
 		</table>
 		<table class="h" border="1">
-
 				<%
 				for (int i = 2; i < 10; i++) {
 				%>
@@ -128,15 +128,16 @@ for (int i : iArray) {
 						%>
 						<td><%=i + "x" + j + "=" + i * j%></td>
 						<%
-						} else if (j == 0)
+						} else if (j == 0){
 						%><td><%=i + "단"%></td>
 						<%
-						}
+						}}
 						%>
 				</tr>
 				<%
 				}
 				%>
 		</table>
+		<jsp:attribute name=""></jsp:attribute>
 </body>
 </html>
