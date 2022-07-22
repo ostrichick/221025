@@ -14,3 +14,16 @@ ALTER TABLE usertb MODIFY (id VISIBLE);
 ALTER TABLE usertb MODIFY (name VISIBLE);
 ALTER TABLE usertb MODIFY (addr VISIBLE);
 ALTER TABLE usertb MODIFY (password VISIBLE);
+
+drop TABLE usertb;
+
+
+CREATE TABLE sampleTB(
+	sidx NUMBER PRIMARY key,
+	title VARCHAR2(100) NOT null,
+	content VARCHAR2(4000) NOT null,
+	writer VARCHAR2(20) NOT null,
+	wdate date
+);
+
+CREATE SEQUENCE sidx_seq START WITH 1 INCREMENT BY 1;

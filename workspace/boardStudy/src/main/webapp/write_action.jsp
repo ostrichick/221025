@@ -2,10 +2,9 @@
 <%@page import="java.sql.*"%>
 <%
 request.setCharacterEncoding("UTF-8");
-String id = request.getParameter("id");
-String password = request.getParameter("password");
-String name = request.getParameter("name");
-String addr = request.getParameter("addr");
+String writer = request.getParameter("writer");
+String title = request.getParameter("title");
+String content = request.getParameter("content");
 
 Connection conn = null; // DB에 연결하는 역할
 PreparedStatement psmt = null; // 동적 쿼리 실행 객체
@@ -18,11 +17,11 @@ try {
 	Class.forName("oracle.jdbc.driver.OracleDriver");
 	conn = DriverManager.getConnection(url, user, pass);
 	String sql = "insert into usertb(uidx, id, password, name, addr) values(uidx_seq.nextval, '" + id + "','" + password
-	+ "','" + name + "','" + addr + "')";
+	+ "','" + name + "','" + addr + "')"; // jdbc ex4 참조해서 ?로 하기
 	psmt = conn.prepareStatement(sql); // sql문을 psmt에 집어넣음
 	int result = psmt.executeUpdate();
 	response.sendRedirect(request.getContextPath()); // index로
-  System.out.println("성공");
+	System.out.println("성공");
 } catch (Exception e) {
 	e.printStackTrace();
 } finally {
