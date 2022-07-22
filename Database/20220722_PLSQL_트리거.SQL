@@ -29,20 +29,20 @@
 --emp_tbl에 update나 delete 시도하면 수정, 삭제된 데이터를
 --emp_tbl_bak 테이블에 보관하고 수정타입(수정,삭제),변경일자,변경한 사용자 계정을 기록하는
 -- 트리거 t_backup_empTBL을 작성
-CREATE OR REPLACE TRIGGER t_backup_empTBL
+CREATE OR REPLACE
+TRIGGER t_backup_empTBL
 	AFTER UPDATE OR DELETE
  	ON emp_tbl
 	FOR EACH row
 DECLARE
-	v_modifyType emp_tbl_bak.midify-type%TYPE;
+	v_modifyType emp_tbl_bak.modify_Type%TYPE;
 BEGIN
 	IF updating THEN
 		v_modifyType := '수정';
 	elsif updating THEN
 		v_modifyType := '삭제';
 	END IF;
-
-	INSERT INTO emp_tbl_bak VALUES(
+INSERT INTO emp_tbl_bak VALUES(
 		:OLD.EMPLOYEE_ID,
 		:OLD.FIRST_NAME,
 		:OLD.LAST_NAME,
@@ -54,10 +54,35 @@ BEGIN
 		:OLD.COMMISSION_PCT,
 		:OLD.MANAGER_ID,
 		:OLD.DEPARTMENT_ID,
-		v_modifyType, SYSdate, USER()
+		v_modifyType,
+		SYSdate,
+		USER()
 	);
 END;
 
 DELETE FROM emp_tbl WHERE employee_id=100;
 
 UPDATE emp_tbl SET salary=10000 WHERE employee_id=112;
+
+--예제2 before 트리거
+--사원번호emp_id 외출유무out_business char(1), 등록시간reg_time
+--저장하는 emp_work_tbl을 생성하고 오전10시-오후5시에만 입력을 허용
+
+CREATE TABLE emp_work_tbl(
+	emp_id number(6) not NULL PRIMARY KEY,
+	out_business CHAR(1) DEFAULT 'N',
+	reg_time DATE DEFAULT sysdate
+);
+
+CREATE OR REPLACE TRIGGER t_insert_workTime
+	BEFORE INSERT
+	ON emp_work_tbl
+	FOR EACH ROW
+BEGIN
+	IF(to_char(SYSDATE,'HH24:MI') NOT BETWEEN '10:00' AND '19:00') THEN
+		RAISE_APPLICATION_ERROR(-20000, '외출 등록 허용시간이 아닙니다');
+	END IF;
+END;
+
+INSERT INTO emp_work_tbl VALUES(101, 'Y', sysdate);
+COMMIT;
