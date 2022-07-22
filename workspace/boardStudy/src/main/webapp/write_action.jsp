@@ -16,9 +16,12 @@ String pass = "1234";
 try {
 	Class.forName("oracle.jdbc.driver.OracleDriver");
 	conn = DriverManager.getConnection(url, user, pass);
-	String sql = "insert into usertb(uidx, id, password, name, addr) values(uidx_seq.nextval, '" + id + "','" + password
-	+ "','" + name + "','" + addr + "')"; // jdbc ex4 참조해서 ?로 하기
+	String sql = "insert into sampletb(sidx, writer, title, content, wdate) values (sidx_seq.nextval, ?, ?, ?, sysdate)";
 	psmt = conn.prepareStatement(sql); // sql문을 psmt에 집어넣음
+	psmt.setString(1, writer);
+	psmt.setString(2, title);
+	psmt.setString(3, content);
+
 	int result = psmt.executeUpdate();
 	response.sendRedirect(request.getContextPath()); // index로
 	System.out.println("성공");

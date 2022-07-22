@@ -15,7 +15,7 @@ section {
 <body>
   <%@include file="/include/header.jsp"%>
   <section>
-    <form action="">
+    <form action="write_action.jsp" method="post">
       <fieldset>
         <legend>글쓰기</legend>
         <p>
@@ -28,6 +28,7 @@ section {
           내용 :
           <textarea name="content" id="" cols="30" rows="10"></textarea>
         </p>
+        <input type="submit" value="전송"/>
       </fieldset>
     </form>
   </section>
