@@ -5,8 +5,9 @@
 int num1 = Integer.parseInt(request.getParameter("num1"));
 int num2 = Integer.parseInt(request.getParameter("num2"));
 String oper = request.getParameter("oper");
-int result = 0;
 String operNew = "";
+int result = 0;
+
 try {
 	switch (oper) {
 	case "plus":
