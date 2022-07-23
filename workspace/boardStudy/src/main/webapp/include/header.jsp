@@ -4,7 +4,7 @@
   <nav>
     <div class="menuArea">
       <ul>
-        <li><a href="/write.jsp">글쓰기</a></li>
+        <li><a href="<%=request.getContextPath()%>/write.jsp">글쓰기</a></li>
         <li>게시판2</li>
         <li>게시판3</li>
       </ul>

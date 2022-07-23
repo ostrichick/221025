@@ -1,7 +1,6 @@
 package j0720_exception;
 
 public class Main {
-	@SuppressWarnings("null")
 	public static void main(String[] args) throws ArithmeticException {
 
 		try {
@@ -41,7 +40,6 @@ public class Main {
 		System.out.println("프로그램 종료");
 	}
 
-	@SuppressWarnings("unused")
 	// 예외 떠넘기기
 	// 호출된 메소드에서 발생하는 예외에 대하여 호출한 곳으로 책임을 전가하는 것
 	// throws 키워드와 예외 이름을 사용함
