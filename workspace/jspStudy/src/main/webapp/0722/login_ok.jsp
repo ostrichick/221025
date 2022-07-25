@@ -2,7 +2,7 @@
   pageEncoding="UTF-8"
 %>
 <%
-String loginID = (String) session.getAttribute("loginID");
+String loginID = (String) session.getAttribute("loginID"); // 가져온 어트리뷰트를 세션에 적용할때 형변환
 %>
 <% %>
 <!DOCTYPE html>

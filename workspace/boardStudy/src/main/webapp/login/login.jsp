@@ -14,7 +14,23 @@ section {
 </head>
 <body>
   <%@include file="/include/header.jsp"%>
-  <section></section>
+  <section>
+    <h2>로그인</h2>
+    <form action="login_action.jsp" method="post">
+    <fieldset>
+    <legend>입력</legend>
+      <p>
+        <label for="">id : <input type="text" name="id" /></label>
+      </p>
+      <p>
+        <label for="">password : <input type="password" name="password" /></label>
+      </p>
+      <p>
+        <input type="submit" value="로그인" />
+      </p>
+      </fieldset>
+    </form>
+  </section>
   <%@include file="/include/footer.jsp"%>
 </body>
 </html>
