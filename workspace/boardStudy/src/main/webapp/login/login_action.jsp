@@ -46,7 +46,7 @@ try {
 		user.setName(rs.getString("name"));
 		user.setUidx(rs.getInt("uidx"));
 
-		session.setAttribute("login", user);
+		session.setAttribute("login", user); // login이라는 이름의 세션으로 user객체를 집어넣음 (id,name,uidx)
 
 		response.sendRedirect(request.getContextPath());
 
@@ -64,7 +64,8 @@ try {
 %>
 <script>
 	alert("아이디/비밀번호가 틀렸습니다.");
-	location.href = "<%request.getContextPath();%>/boardStudy/login/login.jsp";
+	location.href = "<%request.getContextPath();%>
+	/boardStudy/login/login.jsp";
 </script>
 <%
 }

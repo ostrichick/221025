@@ -23,7 +23,7 @@ section {
         <label for="">id : <input type="text" name="id" /></label>
       </p>
       <p>
-        <label for="">password : <input type="text" name="password" /></label>
+        <label for="">password : <input type="password" name="password" /></label>
       </p>
       <p>
         <input type="submit" value="로그인" />
