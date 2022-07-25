@@ -17,8 +17,8 @@
     1. 접근지정자(제한자) : private, protected, (default), public
     2. 수정자 : static, final, transient
     3. 데이터형 
-      - 기본 - byte short int long double float boolean char
-      - 참조 - 배열 클래스 인터페이스 이넘
-    4. 변수이름
+      - 기본(primitive) - byte short int long double float boolean char
+      - 참조(reference) - 배열 클래스 인터페이스 enum
+    4. 변수이름 - 식별자 identifier
   -생성자
   -메소드

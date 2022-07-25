@@ -20,19 +20,7 @@
   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
   version="4.0"
-<<<<<<< HEAD
-  metadata-complete="false">
 
-	<!-- <servlet>
-		<servlet-name>na</servlet-name>
-		<servlet-class>com.newlecture.web.Nana</servlet-class>
-	</servlet>
-	
-	<servlet-mapping>
-		<servlet-name>na</servlet-name>
-		<url-pattern>/hello</url-pattern>
-	</servlet-mapping> -->
-=======
   metadata-complete="false"><!-- metadata-complete="true" --> 
 
 <!-- 	<servlet> -->
