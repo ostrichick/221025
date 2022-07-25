@@ -10,7 +10,7 @@
       </ul>
     </div>
     <div class="loginArea">
-      <a href="<%=request.getContextPath()%>/index.jsp">메인</a> <a href="<%=request.getContextPath()%>/login/login.jsp">로그인</a> <a href="<%=request.getContextPath()%>/login/join.jsp">회원가입</a>
+      <a href="<%=request.getContextPath()%>/index.jsp">메인</a> | <a href="<%=request.getContextPath()%>/login/login.jsp">로그인</a> | <a href="<%=request.getContextPath()%>/login/join.jsp">회원가입</a>
     </div>
   </nav>
 </header>
