@@ -13,7 +13,7 @@
 유지보수
 
   클래스
-  -멤버변수 : 
+  -멤버변수 : 스태틱, 정적(클래스에 고정), 클래스
     1. 접근지정자(제한자) : private, protected, (default), public
     2. 수정자 : static, final, transient
     3. 데이터형 
